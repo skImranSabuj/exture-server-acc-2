@@ -6,7 +6,7 @@ const {
   getTourById,
   bulkUpdateTour,
   deleteTourById,
-} = require("../controllers/Tour.controller");
+} = require("../controllers/tour.controller");
 
 const TourRoute = express.Router();
 
