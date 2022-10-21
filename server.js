@@ -9,7 +9,7 @@ const app = require("./app");
 // DBConnect();
 
 mongoose
-  .connect(process.env.DATABAE)
+  .connect(process.env.DATABASE)
   .then((res) => {
     console.log("server connected".green.bold);
   })
